@@ -1,7 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { useState } from "react";
 import { SiteHeader, SiteFooter } from "@/components/site-chrome";
-import { getTrip } from "@/data/trips";
+import { getTrip, type Trip } from "@/data/trips";
 
 export const Route = createFileRoute("/trips/$id")({
   loader: ({ params }) => {
@@ -35,7 +35,7 @@ export const Route = createFileRoute("/trips/$id")({
 });
 
 function TripDetail() {
-  const { trip } = Route.useLoaderData();
+  const { trip } = Route.useLoaderData() as { trip: Trip };
   const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const hero = trip.gallery[0] ?? trip.image;
