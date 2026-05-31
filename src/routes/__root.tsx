@@ -1,5 +1,5 @@
 import { createRootRoute, Outlet, HeadContent, Scripts } from "@tanstack/react-router";
-import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
+
 import appCss from "../styles.css?url";
 
 export const Route = createRootRoute({
@@ -35,10 +35,5 @@ function RootShell({ children }: { children: React.ReactNode }) {
 }
 
 function RootComponent() {
-  return (
-    <>
-      <Outlet />
-      {process.env.NODE_ENV === "development" && <TanStackRouterDevtools position="bottom-right" />}
-    </>
-  );
+  return <Outlet />;
 }
