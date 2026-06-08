@@ -90,6 +90,7 @@ export const trips: Trip[] = [
     exclusions: baseExclusions,
     guidelines: baseGuidelines,
     faqs: baseFaqs,
+    departures: baseDepartures,
   },
   {
     id: "2",
@@ -121,6 +122,7 @@ export const trips: Trip[] = [
     exclusions: baseExclusions,
     guidelines: baseGuidelines,
     faqs: baseFaqs,
+    departures: baseDepartures,
   },
   {
     id: "3",
@@ -152,6 +154,7 @@ export const trips: Trip[] = [
     exclusions: baseExclusions,
     guidelines: baseGuidelines,
     faqs: baseFaqs,
+    departures: baseDepartures,
   },
   {
     id: "4",
@@ -184,6 +187,7 @@ export const trips: Trip[] = [
     exclusions: baseExclusions,
     guidelines: baseGuidelines,
     faqs: baseFaqs,
+    departures: baseDepartures,
   },
   {
     id: "5",
@@ -203,6 +207,7 @@ export const trips: Trip[] = [
     exclusions: baseExclusions,
     guidelines: baseGuidelines,
     faqs: baseFaqs,
+    departures: baseDepartures,
   },
   {
     id: "6",
@@ -221,6 +226,7 @@ export const trips: Trip[] = [
     exclusions: baseExclusions,
     guidelines: baseGuidelines,
     faqs: baseFaqs,
+    departures: baseDepartures,
   },
   {
     id: "7",
@@ -239,6 +245,7 @@ export const trips: Trip[] = [
     exclusions: baseExclusions,
     guidelines: baseGuidelines,
     faqs: baseFaqs,
+    departures: baseDepartures,
   },
   {
     id: "8",
@@ -257,6 +264,7 @@ export const trips: Trip[] = [
     exclusions: baseExclusions,
     guidelines: baseGuidelines,
     faqs: baseFaqs,
+    departures: baseDepartures,
   },
 ];
 
