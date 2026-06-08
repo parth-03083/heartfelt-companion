@@ -92,9 +92,39 @@ function TripDetail() {
               <div className="mt-4 flex flex-wrap gap-6 text-on-surface-variant">
                 <span className="flex items-center gap-2"><span className="material-symbols-outlined">schedule</span><strong className="text-on-surface">{trip.days} Days</strong></span>
                 <span className="flex items-center gap-2"><span className="material-symbols-outlined">group</span><strong className="text-on-surface">{trip.groupSize}</strong></span>
-                <span className="flex items-center gap-2"><span className="material-symbols-outlined">payments</span><strong className="text-primary">₹{trip.price.toLocaleString("en-IN")}</strong> / person</span>
+                <span className="flex items-center gap-2"><span className="material-symbols-outlined">payments</span><strong className="text-primary">₹{livePrice.toLocaleString("en-IN")}</strong> / person</span>
               </div>
             </div>
+
+            {/* PACKAGES */}
+            <Section title="Choose your package">
+              <div className="flex flex-wrap gap-3 mb-5">
+                {PACKAGES.map((p) => {
+                  const active = p.id === pkgId;
+                  return (
+                    <button
+                      key={p.id}
+                      onClick={() => setPkgId(p.id)}
+                      className={`px-5 py-2.5 rounded-full border text-sm font-semibold transition-all active:scale-95 ${
+                        active
+                          ? "bg-primary text-primary-foreground border-primary shadow"
+                          : "bg-surface-container-lowest text-on-surface-variant border-outline-variant hover:border-primary hover:text-primary"
+                      }`}
+                    >
+                      {p.label} · ₹{(Math.round((trip.price * p.mult) / 100) * 100).toLocaleString("en-IN")}
+                    </button>
+                  );
+                })}
+              </div>
+              <div className="bg-surface-container-low rounded-2xl p-5">
+                <div className="font-display font-bold mb-2">{pkg.hotel}</div>
+                <ul className="grid sm:grid-cols-3 gap-2 text-sm text-on-surface-variant">
+                  {pkg.perks.map((x) => (
+                    <li key={x} className="flex items-center gap-2"><span className="material-symbols-outlined text-secondary text-base">check_circle</span>{x}</li>
+                  ))}
+                </ul>
+              </div>
+            </Section>
 
             {/* PERKS */}
             <Section title="Trip perks">
