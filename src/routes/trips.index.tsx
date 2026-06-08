@@ -3,7 +3,7 @@ import { useState } from "react";
 import { SiteHeader, SiteFooter } from "@/components/site-chrome";
 import { trips, countries, type Trip } from "@/data/trips";
 
-export const Route = createFileRoute("/trips")({
+export const Route = createFileRoute("/trips/")({
   head: () => ({
     meta: [
       { title: "All Trips — Horizon Bound" },
