@@ -145,19 +145,7 @@ function TripDetail() {
 
             {/* ITINERARY */}
             <Section title="Itinerary">
-              <ol className="space-y-3">
-                {trip.itinerary.map((d) => (
-                  <li key={d.day} className="flex gap-4 bg-surface-container-lowest border border-outline-variant/40 rounded-2xl p-5">
-                    <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-primary text-primary-foreground font-display font-extrabold flex items-center justify-center">
-                      D{d.day}
-                    </div>
-                    <div>
-                      <div className="font-display font-bold">{d.title}</div>
-                      <div className="text-sm text-on-surface-variant mt-1">{d.desc}</div>
-                    </div>
-                  </li>
-                ))}
-              </ol>
+              <ItineraryAccordion days={trip.itinerary} />
             </Section>
 
             {/* COSTING */}
