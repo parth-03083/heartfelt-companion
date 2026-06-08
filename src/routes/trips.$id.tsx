@@ -127,7 +127,35 @@ function TripDetail() {
               </div>
             </Section>
 
-            {/* PERKS */}
+            {/* DEPARTURES */}
+            <Section title="Next guaranteed departures">
+              <p className="text-sm text-on-surface-variant mb-4">Pick a confirmed batch — seats fill fast. Your inquiry will be tagged with the selected date.</p>
+              <div className="flex flex-wrap gap-3">
+                {trip.departures.map((d) => {
+                  const active = d === departure;
+                  return (
+                    <button
+                      key={d}
+                      type="button"
+                      onClick={() => setDeparture(d)}
+                      className={`px-4 py-2.5 rounded-2xl border text-sm font-semibold transition-all active:scale-95 flex flex-col items-start leading-tight ${
+                        active
+                          ? "bg-primary text-primary-foreground border-primary shadow"
+                          : "bg-surface-container-lowest text-on-surface border-outline-variant hover:border-primary hover:text-primary"
+                      }`}
+                    >
+                      <span className="text-[11px] uppercase tracking-wider opacity-80">{formatMonth(d)}</span>
+                      <span className="font-display font-extrabold text-base">{formatDay(d)}</span>
+                    </button>
+                  );
+                })}
+              </div>
+              <div className="mt-4 inline-flex items-center gap-2 text-sm text-on-surface-variant">
+                <span className="material-symbols-outlined text-primary text-base">event_available</span>
+                Selected departure: <strong className="text-on-surface">{formatFull(departure)}</strong>
+              </div>
+            </Section>
+
             <Section title="Trip perks">
               <div className="grid sm:grid-cols-2 gap-3">
                 {trip.perks.map((p) => (
