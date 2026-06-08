@@ -216,7 +216,8 @@ function TripDetail() {
           <aside className="lg:col-span-1">
             <div className="lg:sticky lg:top-28 bg-surface-container-lowest border border-outline-variant/40 rounded-3xl p-6 shadow-lg">
               <div className="flex items-baseline gap-2 mb-1">
-                <span className="font-display font-extrabold text-3xl text-primary">₹{trip.price.toLocaleString("en-IN")}</span>
+                <span className="font-display font-extrabold text-3xl text-primary">₹{livePrice.toLocaleString("en-IN")}</span>
+                <span className="text-xs text-on-surface-variant ml-1">({pkg.label})</span>
                 <span className="text-sm text-on-surface-variant">/ person</span>
               </div>
               <p className="text-xs text-on-surface-variant mb-6">All taxes included · Pay 25% to confirm</p>
