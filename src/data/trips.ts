@@ -16,7 +16,17 @@ export type Trip = {
   exclusions: string[];
   guidelines: string[];
   faqs: { q: string; a: string }[];
+  departures: string[]; // ISO yyyy-mm-dd guaranteed departure dates
 };
+
+const baseDepartures = [
+  "2026-07-12",
+  "2026-08-09",
+  "2026-09-13",
+  "2026-10-11",
+  "2026-11-15",
+  "2026-12-20",
+];
 
 const baseFaqs = [
   { q: "What is the booking process?", a: "Inquire via WhatsApp, get a custom itinerary, confirm with 25% deposit and we handle the rest." },
@@ -80,6 +90,7 @@ export const trips: Trip[] = [
     exclusions: baseExclusions,
     guidelines: baseGuidelines,
     faqs: baseFaqs,
+    departures: baseDepartures,
   },
   {
     id: "2",
@@ -111,6 +122,7 @@ export const trips: Trip[] = [
     exclusions: baseExclusions,
     guidelines: baseGuidelines,
     faqs: baseFaqs,
+    departures: baseDepartures,
   },
   {
     id: "3",
@@ -142,6 +154,7 @@ export const trips: Trip[] = [
     exclusions: baseExclusions,
     guidelines: baseGuidelines,
     faqs: baseFaqs,
+    departures: baseDepartures,
   },
   {
     id: "4",
@@ -174,6 +187,7 @@ export const trips: Trip[] = [
     exclusions: baseExclusions,
     guidelines: baseGuidelines,
     faqs: baseFaqs,
+    departures: baseDepartures,
   },
   {
     id: "5",
@@ -193,6 +207,7 @@ export const trips: Trip[] = [
     exclusions: baseExclusions,
     guidelines: baseGuidelines,
     faqs: baseFaqs,
+    departures: baseDepartures,
   },
   {
     id: "6",
@@ -211,6 +226,7 @@ export const trips: Trip[] = [
     exclusions: baseExclusions,
     guidelines: baseGuidelines,
     faqs: baseFaqs,
+    departures: baseDepartures,
   },
   {
     id: "7",
@@ -229,6 +245,7 @@ export const trips: Trip[] = [
     exclusions: baseExclusions,
     guidelines: baseGuidelines,
     faqs: baseFaqs,
+    departures: baseDepartures,
   },
   {
     id: "8",
@@ -247,6 +264,7 @@ export const trips: Trip[] = [
     exclusions: baseExclusions,
     guidelines: baseGuidelines,
     faqs: baseFaqs,
+    departures: baseDepartures,
   },
 ];
 
