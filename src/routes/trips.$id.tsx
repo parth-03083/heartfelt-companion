@@ -262,7 +262,7 @@ function Section({ title, children }: { title: string; children: React.ReactNode
   );
 }
 
-function BookingForm({ tripName }: { tripName: string }) {
+function BookingForm({ tripName, departure }: { tripName: string; departure: string }) {
   const [sent, setSent] = useState(false);
   return (
     <form
@@ -276,7 +276,7 @@ function BookingForm({ tripName }: { tripName: string }) {
       <Field label="Email" type="email" placeholder="you@example.com" />
       <Field label="WhatsApp" placeholder="+91 ..." />
       <div className="grid grid-cols-2 gap-3">
-        <Field label="Travel date" type="date" />
+        <Field label="Travel date" type="date" value={departure} readOnly />
         <Field label="Travellers" type="number" placeholder="2" />
       </div>
       <div>
