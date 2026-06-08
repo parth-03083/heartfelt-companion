@@ -348,3 +348,22 @@ function ItineraryAccordion({ days }: { days: Trip["itinerary"] }) {
     </div>
   );
 }
+
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+function parts(iso: string) {
+  const [y, m, d] = iso.split("-").map(Number);
+  return { y, m, d };
+}
+function formatMonth(iso: string) {
+  const { m, y } = parts(iso);
+  return `${MONTHS[m - 1]} ${y}`;
+}
+function formatDay(iso: string) {
+  const { d } = parts(iso);
+  return String(d).padStart(2, "0");
+}
+function formatFull(iso: string) {
+  if (!iso) return "—";
+  const { y, m, d } = parts(iso);
+  return `${String(d).padStart(2, "0")} ${MONTHS[m - 1]} ${y}`;
+}
