@@ -44,6 +44,7 @@ function TripDetail() {
   const { trip } = Route.useLoaderData() as { trip: Trip };
   const [openFaq, setOpenFaq] = useState<number | null>(0);
   const [pkgId, setPkgId] = useState<typeof PACKAGES[number]["id"]>("standard");
+  const [departure, setDeparture] = useState<string>(trip.departures[0] ?? "");
   const pkg = PACKAGES.find((p) => p.id === pkgId)!;
   const livePrice = Math.round((trip.price * pkg.mult) / 100) * 100;
 
