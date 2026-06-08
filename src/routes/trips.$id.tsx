@@ -281,3 +281,37 @@ function Field({ label, ...props }: { label: string } & React.InputHTMLAttribute
     </div>
   );
 }
+
+function ItineraryAccordion({ days }: { days: Trip["itinerary"] }) {
+  const [open, setOpen] = useState<number | null>(days[0]?.day ?? null);
+  return (
+    <div className="space-y-3">
+      {days.map((d) => {
+        const isOpen = open === d.day;
+        return (
+          <div key={d.day} className="bg-surface-container-lowest border border-outline-variant/40 rounded-2xl overflow-hidden">
+            <button
+              type="button"
+              onClick={() => setOpen(isOpen ? null : d.day)}
+              className="w-full flex items-center gap-4 p-4 text-left hover:bg-surface-container-low transition-colors"
+              aria-expanded={isOpen}
+            >
+              <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-primary text-primary-foreground font-display font-extrabold flex items-center justify-center">
+                D{d.day}
+              </div>
+              <div className="flex-1 font-display font-bold">{d.title}</div>
+              <span className={`material-symbols-outlined text-on-surface-variant transition-transform ${isOpen ? "rotate-180" : ""}`}>
+                expand_more
+              </span>
+            </button>
+            {isOpen && (
+              <div className="px-5 pb-5 pt-1 text-sm text-on-surface-variant leading-relaxed border-t border-outline-variant/40">
+                {d.desc}
+              </div>
+            )}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
