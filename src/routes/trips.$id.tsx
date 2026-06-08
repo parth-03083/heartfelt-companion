@@ -145,19 +145,7 @@ function TripDetail() {
 
             {/* ITINERARY */}
             <Section title="Itinerary">
-              <ol className="space-y-3">
-                {trip.itinerary.map((d) => (
-                  <li key={d.day} className="flex gap-4 bg-surface-container-lowest border border-outline-variant/40 rounded-2xl p-5">
-                    <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-primary text-primary-foreground font-display font-extrabold flex items-center justify-center">
-                      D{d.day}
-                    </div>
-                    <div>
-                      <div className="font-display font-bold">{d.title}</div>
-                      <div className="text-sm text-on-surface-variant mt-1">{d.desc}</div>
-                    </div>
-                  </li>
-                ))}
-              </ol>
+              <ItineraryAccordion days={trip.itinerary} />
             </Section>
 
             {/* COSTING */}
@@ -290,6 +278,40 @@ function Field({ label, ...props }: { label: string } & React.InputHTMLAttribute
         {...props}
         className="w-full rounded-xl border border-outline-variant bg-surface px-3.5 py-2.5 text-sm focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20"
       />
+    </div>
+  );
+}
+
+function ItineraryAccordion({ days }: { days: Trip["itinerary"] }) {
+  const [open, setOpen] = useState<number | null>(days[0]?.day ?? null);
+  return (
+    <div className="space-y-3">
+      {days.map((d) => {
+        const isOpen = open === d.day;
+        return (
+          <div key={d.day} className="bg-surface-container-lowest border border-outline-variant/40 rounded-2xl overflow-hidden">
+            <button
+              type="button"
+              onClick={() => setOpen(isOpen ? null : d.day)}
+              className="w-full flex items-center gap-4 p-4 text-left hover:bg-surface-container-low transition-colors"
+              aria-expanded={isOpen}
+            >
+              <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-primary text-primary-foreground font-display font-extrabold flex items-center justify-center">
+                D{d.day}
+              </div>
+              <div className="flex-1 font-display font-bold">{d.title}</div>
+              <span className={`material-symbols-outlined text-on-surface-variant transition-transform ${isOpen ? "rotate-180" : ""}`}>
+                expand_more
+              </span>
+            </button>
+            {isOpen && (
+              <div className="px-5 pb-5 pt-1 text-sm text-on-surface-variant leading-relaxed border-t border-outline-variant/40">
+                {d.desc}
+              </div>
+            )}
+          </div>
+        );
+      })}
     </div>
   );
 }
