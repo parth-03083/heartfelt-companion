@@ -34,9 +34,18 @@ export const Route = createFileRoute("/trips/$id")({
   component: TripDetail,
 });
 
+const PACKAGES = [
+  { id: "standard", label: "3★ Comfort", hotel: "3-star handpicked hotels", mult: 1, perks: ["Comfortable rooms", "Daily breakfast", "Group transfers"] },
+  { id: "premium", label: "4★ Premium", hotel: "4-star centrally-located hotels", mult: 1.25, perks: ["Upgraded rooms", "Breakfast + 1 dinner", "Private transfers"] },
+  { id: "luxury", label: "5★ Luxury", hotel: "5-star luxury resorts", mult: 1.6, perks: ["Suite category", "All meals included", "Private guide & car"] },
+] as const;
+
 function TripDetail() {
   const { trip } = Route.useLoaderData() as { trip: Trip };
   const [openFaq, setOpenFaq] = useState<number | null>(0);
+  const [pkgId, setPkgId] = useState<typeof PACKAGES[number]["id"]>("standard");
+  const pkg = PACKAGES.find((p) => p.id === pkgId)!;
+  const livePrice = Math.round((trip.price * pkg.mult) / 100) * 100;
 
   const hero = trip.gallery[0] ?? trip.image;
   const sides = trip.gallery.slice(1, 5);
