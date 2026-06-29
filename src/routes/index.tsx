@@ -33,7 +33,7 @@ const reviews = [
 ];
 
 function Home() {
-  const featured = trips.slice(0, 6);
+  const featured = trips.filter((t) => t.featured);
   const counts = {
     group: trips.filter((t) => t.category === "group").length,
     domestic: trips.filter((t) => t.category === "domestic").length,
@@ -196,40 +196,61 @@ function Home() {
         </div>
       </section>
 
-      {/* NEXT TRIPS CAROUSEL */}
-      <section className="py-20 overflow-hidden">
-        <div className="max-w-[1280px] mx-auto px-5 md:px-16 mb-10 flex items-end justify-between gap-4 flex-wrap">
-          <div>
-            <span className="text-secondary font-bold text-xs uppercase tracking-widest">Upcoming departures</span>
-            <h2 className="font-display text-3xl md:text-4xl font-bold mt-3">Next trips off the runway</h2>
+      {/* FEATURED TRIPS */}
+      <section className="py-20">
+        <div className="max-w-[1280px] mx-auto px-5 md:px-16">
+          <div className="mb-10 flex items-end justify-between gap-4 flex-wrap">
+            <div>
+              <span className="text-secondary font-bold text-xs uppercase tracking-widest">Featured journeys</span>
+              <h2 className="font-display text-3xl md:text-4xl font-bold mt-3">Hand-picked trips you'll love</h2>
+              <p className="text-on-surface-variant mt-2 max-w-xl">Our most-loved itineraries — vetted, bookable, and ready to go.</p>
+            </div>
+            <Link to="/trips" className="text-primary font-bold text-sm hover:underline">View all trips →</Link>
           </div>
-          <Link to="/trips" className="text-primary font-bold text-sm hover:underline">View all trips →</Link>
-        </div>
-        <div className="relative">
-          <div className="flex gap-6 animate-marquee w-max">
-            {[...featured, ...featured].map((t, i) => (
-              <Link
-                to="/trips/$id"
-                params={{ id: t.id }}
-                key={`${t.id}-${i}`}
-                className="w-[280px] md:w-[320px] bg-surface-container-lowest border border-outline-variant/40 rounded-2xl overflow-hidden flex-shrink-0 hover:-translate-y-1 hover:shadow-xl transition-all"
-              >
-                <div className="aspect-[4/3] overflow-hidden">
-                  <img src={t.image} alt={t.name} className="w-full h-full object-cover" />
-                </div>
-                <div className="p-5">
-                  <h3 className="font-display font-bold text-lg mb-2 truncate">{t.name}</h3>
-                  <div className="flex items-center justify-between text-sm">
-                    <span className="text-primary font-bold">₹{t.price.toLocaleString("en-IN")}</span>
-                    <span className="text-on-surface-variant flex items-center gap-1">
-                      <span className="material-symbols-outlined text-base">schedule</span>
-                      {t.days} days
-                    </span>
+
+          {featured.length === 0 ? (
+            <div className="text-center text-on-surface-variant py-10">No featured trips yet.</div>
+          ) : (
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {featured.map((t) => (
+                <Link
+                  to="/trips/$id"
+                  params={{ id: t.id }}
+                  key={t.id}
+                  className="group bg-surface-container-lowest border border-outline-variant/40 rounded-2xl overflow-hidden hover:-translate-y-1 hover:shadow-xl transition-all flex flex-col"
+                >
+                  <div className="aspect-[4/3] overflow-hidden relative">
+                    <img src={t.image} alt={t.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                    {t.tag && (
+                      <span className="absolute top-3 left-3 bg-secondary text-secondary-foreground px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider">
+                        {t.tag}
+                      </span>
+                    )}
                   </div>
-                </div>
-              </Link>
-            ))}
-          </div>
+                  <div className="p-5 flex-1 flex flex-col">
+                    <div className="flex items-center gap-1 text-xs text-on-surface-variant mb-2">
+                      <span className="material-symbols-outlined text-sm">location_on</span>
+                      {t.country}
+                      <span className="mx-1">·</span>
+                      <span className="capitalize">{t.category}</span>
+                    </div>
+                    <h3 className="font-display font-bold text-lg mb-3 line-clamp-1">{t.name}</h3>
+                    <p className="text-sm text-on-surface-variant line-clamp-2 mb-5 flex-1">{t.overview}</p>
+                    <div className="flex items-center justify-between pt-4 border-t border-outline-variant/40">
+                      <div>
+                        <div className="text-[11px] text-on-surface-variant uppercase tracking-wider">From</div>
+                        <div className="text-primary font-display font-extrabold text-xl">₹{t.price.toLocaleString("en-IN")}</div>
+                      </div>
+                      <div className="text-right text-xs text-on-surface-variant">
+                        <div className="flex items-center gap-1 justify-end"><span className="material-symbols-outlined text-sm">schedule</span>{t.days} days</div>
+                        <div className="flex items-center gap-1 justify-end mt-1"><span className="material-symbols-outlined text-sm">group</span>{t.groupSize}</div>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          )}
         </div>
       </section>
 

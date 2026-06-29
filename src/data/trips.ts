@@ -17,6 +17,7 @@ export type Trip = {
   guidelines: string[];
   faqs: { q: string; a: string }[];
   departures: string[]; // ISO yyyy-mm-dd guaranteed departure dates
+  featured?: boolean;
 };
 
 const baseDepartures = [
@@ -60,6 +61,7 @@ const baseExclusions = [
 export const trips: Trip[] = [
   {
     id: "1",
+    featured: true,
     name: "Singapore Skyline Escape",
     category: "international",
     country: "Singapore",
@@ -126,6 +128,7 @@ export const trips: Trip[] = [
   },
   {
     id: "3",
+    featured: true,
     name: "Bali Island Hop",
     category: "international",
     country: "Indonesia",
@@ -158,6 +161,7 @@ export const trips: Trip[] = [
   },
   {
     id: "4",
+    featured: true,
     name: "Ladakh Bike Expedition",
     category: "group",
     country: "India",
@@ -230,6 +234,7 @@ export const trips: Trip[] = [
   },
   {
     id: "7",
+    featured: true,
     name: "Dubai City & Desert",
     category: "international",
     country: "UAE",
