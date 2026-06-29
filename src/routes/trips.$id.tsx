@@ -40,6 +40,25 @@ const PACKAGES = [
   { id: "luxury", label: "5★ Luxury", hotel: "5-star luxury resorts", mult: 1.6, perks: ["Suite category", "All meals included", "Private guide & car"] },
 ] as const;
 
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+function parts(iso: string) {
+  const [y, m, d] = iso.split("-").map(Number);
+  return { y, m, d };
+}
+function formatMonth(iso: string) {
+  const { m, y } = parts(iso);
+  return `${MONTHS[m - 1]} ${y}`;
+}
+function formatDay(iso: string) {
+  const { d } = parts(iso);
+  return String(d).padStart(2, "0");
+}
+function formatFull(iso: string) {
+  if (!iso) return "—";
+  const { y, m, d } = parts(iso);
+  return `${String(d).padStart(2, "0")} ${MONTHS[m - 1]} ${y}`;
+}
+
 function TripDetail() {
   const { trip } = Route.useLoaderData() as { trip: Trip };
   const [openFaq, setOpenFaq] = useState<number | null>(0);
