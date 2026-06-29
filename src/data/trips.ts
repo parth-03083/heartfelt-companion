@@ -17,6 +17,7 @@ export type Trip = {
   guidelines: string[];
   faqs: { q: string; a: string }[];
   departures: string[]; // ISO yyyy-mm-dd guaranteed departure dates
+  featured?: boolean;
 };
 
 const baseDepartures = [
