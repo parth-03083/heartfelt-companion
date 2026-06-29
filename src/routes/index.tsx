@@ -33,7 +33,7 @@ const reviews = [
 ];
 
 function Home() {
-  const featured = trips.slice(0, 6);
+  const featured = trips.filter((t) => t.featured);
   const counts = {
     group: trips.filter((t) => t.category === "group").length,
     domestic: trips.filter((t) => t.category === "domestic").length,
