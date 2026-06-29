@@ -5,6 +5,7 @@ import { trips } from "@/data/trips";
 const navBase = [
   { to: "/", label: "Home" },
   { to: "/trips", label: "Trips" },
+  { to: "/about", label: "About" },
 ];
 
 const featuredTrips = trips.filter((t) => t.featured);
