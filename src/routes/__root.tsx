@@ -1,4 +1,4 @@
-import { createRootRoute, Outlet, HeadContent, Scripts } from "@tanstack/react-router";
+import { createRootRoute, Outlet, HeadContent, Scripts, Link } from "@tanstack/react-router";
 
 import appCss from "../styles.css?url";
 
@@ -20,6 +20,23 @@ export const Route = createRootRoute({
   }),
   shellComponent: RootShell,
   component: RootComponent,
+  notFoundComponent: () => (
+    <div className="min-h-screen flex items-center justify-center bg-background text-on-surface">
+      <div className="text-center px-5">
+        <h1 className="font-display text-4xl md:text-5xl font-extrabold text-primary mb-4">404</h1>
+        <h2 className="font-display text-2xl font-bold mb-2">Page Not Found</h2>
+        <p className="text-on-surface-variant mb-6 max-w-md mx-auto">
+          The page you are looking for might have been moved, deleted, or does not exist.
+        </p>
+        <Link
+          to="/"
+          className="inline-block bg-primary text-primary-foreground px-6 py-3 rounded-full font-bold text-sm hover:bg-primary-container transition-all active:scale-95"
+        >
+          Go Back Home
+        </Link>
+      </div>
+    </div>
+  ),
 });
 
 function RootShell({ children }: { children: React.ReactNode }) {

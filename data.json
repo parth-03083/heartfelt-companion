@@ -1,0 +1,195 @@
+[
+  {
+    "id": "kerala-expedition",
+    "name": "Kerala Expidition",
+    "category": "domestic",
+    "country": "India",
+    "days": 4,
+    "price": 18500,
+    "groupSize": "Max 12",
+    "tag": "Bestseller",
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&q=80",
+      "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=1200&q=80",
+      "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&q=80",
+      "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?w=1200&q=80"
+    ],
+    "overview": "Embark on an enchanting 3 Nights - 4 Days expedition through Kerala, God's Own Country. Explore the mist-covered tea gardens of Munnar and glide along serene backwaters in a traditional Alleppey houseboat.",
+    "perks": [
+      "Luxury Houseboat Stay",
+      "Munnar Tea Plantation Tour",
+      "Spice Garden Walk",
+      "Kathakali Cultural Night"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Cochin & Drive to Munnar",
+        "desc": "Arrive at Cochin Airport/Railway Station and proceed on a scenic drive to Munnar. En route, witness Cheeyappara and Valara waterfalls. Check-in to hotel and relax."
+      },
+      {
+        "day": 2,
+        "title": "Munnar Sightseeing & Tea Estates",
+        "desc": "Visit Eravikulam National Park to spot the endangered Nilgiri Tahr. Explore the Tata Tea Museum, Mattupetty Dam, and Echo Point, followed by an evening spice plantation walk."
+      },
+      {
+        "day": 3,
+        "title": "Munnar to Alleppey Backwaters",
+        "desc": "Drive to Alleppey and board your private traditional houseboat. Cruise through scenic canals, palm-fringed lagoons, and paddy fields while enjoying freshly prepared authentic Kerala meals onboard."
+      },
+      {
+        "day": 4,
+        "title": "Alleppey to Cochin & Departure",
+        "desc": "Disembark from the houseboat after breakfast. Drive back to Cochin for brief city sightseeing including Fort Kochi, Chinese Fishing Nets, and shopping before your onward drop."
+      }
+    ],
+    "inclusions": [
+      "All accommodations (3-star hotels in Munnar & Deluxe Houseboat in Alleppey)",
+      "Daily breakfast and all meals onboard the houseboat",
+      "Private AC vehicle transfers and inter-city travel",
+      "Guided sightseeing tours and plantation walks",
+      "All applicable taxes and driver allowances"
+    ],
+    "exclusions": [
+      "Airfare or train tickets to/from Cochin",
+      "Entry fees to national parks, museums, and monuments",
+      "Personal expenses such as tips, laundry, and drinks",
+      "Anything not mentioned in the inclusions list"
+    ],
+    "guidelines": [
+      "Carry a valid government-issued ID card.",
+      "Pack comfortable cotton clothing and warm layers for Munnar evenings.",
+      "Respect local customs and ecological guidelines in sanctuaries and backwaters.",
+      "Keep mosquito repellent and sunscreen handy."
+    ],
+    "faqs": [
+      {
+        "q": "What is the best time to visit Kerala?",
+        "a": "September to March offers cool, pleasant weather ideal for sightseeing and backwater cruises."
+      },
+      {
+        "q": "Are meals provided on the houseboat?",
+        "a": "Yes, traditional Kerala breakfast, lunch, high tea, and dinner are freshly prepared onboard."
+      },
+      {
+        "q": "Can the trip itinerary be customized?",
+        "a": "Yes, we can adjust dates, stay categories, and stops to suit your preferences."
+      }
+    ],
+    "departures": [
+      "2026-07-12",
+      "2026-08-09",
+      "2026-09-13",
+      "2026-10-11",
+      "2026-11-15",
+      "2026-12-20"
+    ]
+  },
+  {
+    "id": "kerala-exploration",
+    "name": "Kerala Exploration",
+    "category": "domestic",
+    "country": "India",
+    "days": 7,
+    "price": 28500,
+    "groupSize": "Max 12",
+    "tag": "Trending",
+    "featured": true,
+    "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=1200&q=80",
+      "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&q=80",
+      "https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=1200&q=80",
+      "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?w=1200&q=80"
+    ],
+    "overview": "Immerse yourself in a comprehensive 6 Nights - 7 Days exploration of Kerala. From hill stations in Munnar and wildlife in Thekkady to traditional Alleppey houseboats, Kovalam beaches, and historic Trivandrum temples.",
+    "perks": [
+      "Periyar Wildlife Boating",
+      "Alleppey Houseboat 21hr Cruise",
+      "Kovalam Beach Sunset",
+      "Trivandrum Heritage Tour"
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Journey Starts: Cochin to Munnar & Waterfalls",
+        "desc": "Start journey from Cochin Airport/Railway Station to Munnar (135 km/4.5 hrs). Visit Cheeyappara, Valara & Attukadu Waterfalls and Spice Plantations. Overnight stay at Munnar."
+      },
+      {
+        "day": 2,
+        "title": "Munnar Full Day Sightseeing",
+        "desc": "Visit Eravikulam National Park (Raja Malai), Mattupetty Dam, Tea Estates, Eco Point, Rose Garden, Photo Point, Honey Bee Tree, Tea Museum, and Blossom Park. Overnight stay at Munnar."
+      },
+      {
+        "day": 3,
+        "title": "Thekkady / Periyar Sightseeing & Cultural Evening",
+        "desc": "Drive to Thekkady (105 km/3.5 hrs). Explore Periyar Wildlife Sanctuary by boat to spot wild elephants, deer, and tigers. Enjoy an evening of Kathakali, Kalaripayattu martial arts, and tribal dance. Overnight stay at Thekkady."
+      },
+      {
+        "day": 4,
+        "title": "Alleppey Backwater & Houseboat Stay",
+        "desc": "Drive to Alleppey (160 km/3.5 hrs) and check-in to a traditional Kerala Houseboat. Enjoy a 21-hour backwater cruise with tea, snacks, lunch, dinner, and breakfast served onboard. Overnight stay in Houseboat."
+      },
+      {
+        "day": 5,
+        "title": "Alleppey to Kovalam Beach",
+        "desc": "Travel from Alleppey to Kovalam (180 km/4 hrs). Spend the evening relaxing at Kovalam Beach amidst lush coconut palms and pristine coastline. Overnight stay at Kovalam."
+      },
+      {
+        "day": 6,
+        "title": "Trivandrum Heritage Sightseeing & Kovalam Evening",
+        "desc": "Full-day city tour of Trivandrum visiting Sree Padmanabha Swami Temple, Kuthiramalika Palace, Napier Museum, Sree Chithra Art Gallery, and Planetarium. Return to Kovalam Beach for the evening. Overnight stay at Kovalam."
+      },
+      {
+        "day": 7,
+        "title": "Return Journey Towards Hometown",
+        "desc": "Transfer from Kovalam to Trivandrum Airport / Railway Station (20 km/0.5 hrs) for your onward journey."
+      }
+    ],
+    "inclusions": [
+      "Accommodation in Hotel/Houseboat as per selected package",
+      "Daily breakfast at hotels and all meals (Breakfast, Lunch, Dinner & High Tea) in Houseboat",
+      "Inter-city travel from Cochin pick-up to Trivandrum drop-off",
+      "Private AC vehicle for sightseeing with experienced driver cum guide",
+      "All toll fees, parking charges, DA, and state permits included",
+      "24x7 support throughout the journey"
+    ],
+    "exclusions": [
+      "5% GST",
+      "Entry tickets for sightseeing, national parks, and cultural programmes",
+      "Paid activities (Elephant ride, Ayurveda massages, Kalaripayattu, etc.)",
+      "Airfare or train tickets",
+      "Peak season surcharges and unforeseen emergency costs"
+    ],
+    "guidelines": [
+      "Pick up at Cochin Airport/Station and drop off at Trivandrum Airport/Station.",
+      "Vehicle allocation: 2 Pax (AC Sedan), 4 Pax (AC Ertiga), 6 Pax (AC Innova).",
+      "Note: Eravikulam National Park is closed during February and March.",
+      "Rates valid from 1st March 2026 to 30th September 2026."
+    ],
+    "faqs": [
+      {
+        "q": "What stays are included in each package tier?",
+        "a": "Standard includes Fortune Palace (Munnar), Lakeshore Inn (Thekkady), Jumayira Residency (Kovalam). Premium includes Star Emirates, Holiday Vista, Sagara Beach Resort. Luxury includes Leaf Resort, Greenwoods, Uday Samudra."
+      },
+      {
+        "q": "Are optional paid activities booked in advance?",
+        "a": "Paid activities like Kathakali, Kalaripayattu, Elephant rides, and Ayurveda massages can be arranged locally through your driver cum guide."
+      },
+      {
+        "q": "What are the houseboat check-in timings?",
+        "a": "Houseboat check-in is around 12:00 PM in Alleppey and operates for 21 hours with all meals provided onboard."
+      }
+    ],
+    "departures": [
+      "2026-07-12",
+      "2026-08-09",
+      "2026-09-13",
+      "2026-10-11",
+      "2026-11-15",
+      "2026-12-20"
+    ]
+  }
+]

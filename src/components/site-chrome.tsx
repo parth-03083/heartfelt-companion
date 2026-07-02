@@ -1,6 +1,8 @@
 import { Link } from "@tanstack/react-router";
 import { useState, useRef, useEffect } from "react";
 import { trips } from "@/data/trips";
+import { Logo } from "./logo";
+
 
 const navBase = [
   { to: "/", label: "Home" },
@@ -32,8 +34,8 @@ export function SiteHeader() {
   return (
     <header className="bg-surface/80 backdrop-blur-md fixed top-0 w-full z-50 shadow-sm border-b border-outline-variant/30">
       <div className="flex justify-between items-center h-20 px-5 md:px-16 max-w-[1280px] mx-auto">
-        <Link to="/" className="font-display text-2xl font-extrabold text-primary tracking-tight">
-          Horizon<span className="text-secondary">.</span>Bound
+        <Link to="/" className="font-display text-2xl font-extrabold text-primary tracking-tight flex items-center gap-2">
+          <Logo />
         </Link>
         <nav className="hidden md:flex items-center gap-8">
           {navBase.map((n) => (
@@ -52,9 +54,8 @@ export function SiteHeader() {
           <div className="relative" ref={featuredRef}>
             <button
               onClick={() => setFeaturedOpen((v) => !v)}
-              className={`text-[15px] font-medium transition-colors flex items-center gap-1 ${
-                featuredOpen ? "text-primary font-semibold" : "text-on-surface-variant hover:text-primary"
-              }`}
+              className={`text-[15px] font-medium transition-colors flex items-center gap-1 ${featuredOpen ? "text-primary font-semibold" : "text-on-surface-variant hover:text-primary"
+                }`}
             >
               Featured
               <span className={`material-symbols-outlined text-base transition-transform ${featuredOpen ? "rotate-180" : ""}`}>
@@ -162,7 +163,7 @@ export function SiteFooter() {
       <div className="max-w-[1280px] mx-auto px-5 md:px-16 py-16 grid md:grid-cols-4 gap-10">
         <div>
           <div className="font-display text-2xl font-extrabold mb-3">
-            Horizon<span className="text-secondary-container">.</span>Bound
+            Your Trip <span className="text-secondary-container">Tales</span>
           </div>
           <p className="text-sm text-primary-foreground/70 leading-relaxed">
             Curated journeys for groups, families and explorers — across India and the world.
@@ -196,7 +197,7 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="border-t border-primary-foreground/15 py-5 text-center text-xs text-primary-foreground/60">
-        © {new Date().getFullYear()} Horizon Bound. Crafted with wanderlust.
+        © {new Date().getFullYear()} Your Trip Tales. Crafted with wanderlust.
       </div>
     </footer>
   );
