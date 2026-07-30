@@ -67,30 +67,36 @@ function TripsPage() {
 
         {/* CATEGORY SECTIONS */}
         <div className="max-w-[1280px] mx-auto px-5 md:px-16 py-12 space-y-16">
-          {categories.map((cat) => {
-            const list = byCat(cat.id);
-            return (
-              <section key={cat.id}>
-                <div className="flex items-baseline gap-4 mb-6">
-                  <h2 className="font-display text-2xl md:text-3xl font-bold">{cat.label}</h2>
-                  <div className="h-px flex-grow bg-outline-variant" />
-                  <span className="text-sm text-on-surface-variant">{list.length} trips</span>
+          {(() => {
+            const visibleCategories = categories.filter((cat) => byCat(cat.id).length > 0);
+            if (visibleCategories.length === 0) {
+              return (
+                <div className="text-center py-16 bg-surface-container-low rounded-2xl text-on-surface-variant">
+                  <span className="material-symbols-outlined text-4xl mb-2 block">travel_explore</span>
+                  <p className="text-lg font-semibold">No trips available for {country}.</p>
+                  <p className="text-sm mt-1 text-on-surface-variant/80">Try selecting a different destination or filter.</p>
                 </div>
-
-                {list.length === 0 ? (
-                  <div className="text-center py-12 bg-surface-container-low rounded-2xl text-on-surface-variant">
-                    No trips in {country} for this category yet.
+              );
+            }
+            return visibleCategories.map((cat) => {
+              const list = byCat(cat.id);
+              return (
+                <section key={cat.id}>
+                  <div className="flex items-baseline gap-4 mb-6">
+                    <h2 className="font-display text-2xl md:text-3xl font-bold">{cat.label}</h2>
+                    <div className="h-px flex-grow bg-outline-variant" />
+                    <span className="text-sm text-on-surface-variant">{list.length} trips</span>
                   </div>
-                ) : (
+
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {list.map((t) => (
                       <TripCard key={t.id} trip={t} />
                     ))}
                   </div>
-                )}
-              </section>
-            );
-          })}
+                </section>
+              );
+            });
+          })()}
         </div>
       </main>
 
