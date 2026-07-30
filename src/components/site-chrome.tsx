@@ -190,9 +190,9 @@ export function SiteFooter() {
         <div>
           <h4 className="font-display font-bold mb-4 text-sm uppercase tracking-wider">Reach Us</h4>
           <ul className="space-y-2:2 text-sm text-primary-foreground/80">
-            <li className="flex items-center gap-2"><span className="material-symbols-outlined text-base">call</span> +91 98765 43210</li>
-            <li className="flex items-center gap-2"><span className="material-symbols-outlined text-base">mail</span> hello@horizonbound.com</li>
-            <li className="flex items-center gap-2"><span className="material-symbols-outlined text-base">location_on</span> Mumbai, India</li>
+            <li className="flex items-center gap-2"><span className="material-symbols-outlined text-base">call</span> +91 79841 16583</li>
+            <li className="flex items-center gap-2"><span className="material-symbols-outlined text-base">mail</span> info@yourtriptales.com</li>
+            <li className="flex items-center gap-2"><span className="material-symbols-outlined text-base">location_on</span> Ahmedabad, India</li>
           </ul>
         </div>
       </div>
