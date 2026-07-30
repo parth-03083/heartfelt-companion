@@ -261,7 +261,7 @@ function TripDetail() {
                 <span className="material-symbols-outlined text-base">event_available</span>
                 <span>Departure: <strong>{formatFull(departure)}</strong></span>
               </div>
-              <BookingForm tripName={trip.name} departure={departure} />
+              <BookingForm tripName={trip.name} price={livePrice} pkgLabel={pkg.label} departure={departure} />
             </div>
           </aside>
         </section>
