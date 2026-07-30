@@ -281,27 +281,110 @@ function Section({ title, children }: { title: string; children: React.ReactNode
   );
 }
 
-function BookingForm({ tripName, departure }: { tripName: string; departure: string }) {
+const WHATSAPP_NUMBER = "917984116583";
+
+function BookingForm({
+  tripName,
+  price,
+  pkgLabel,
+  departure,
+}: {
+  tripName: string;
+  price: number;
+  pkgLabel: string;
+  departure: string;
+}) {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [whatsapp, setWhatsapp] = useState("");
+  const [travellers, setTravellers] = useState("2");
+  const [message, setMessage] = useState("");
+  const [errors, setErrors] = useState<Record<string, string>>({});
   const [sent, setSent] = useState(false);
+
+  function validate() {
+    const e: Record<string, string> = {};
+    if (!name.trim()) e.name = "Please enter your name";
+    if (!email.trim()) e.email = "Please enter your email";
+    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim())) e.email = "Enter a valid email";
+    if (!whatsapp.trim()) e.whatsapp = "Please enter your WhatsApp number";
+    else if (!/^[+\d][\d\s-]{6,}$/.test(whatsapp.trim())) e.whatsapp = "Enter a valid number";
+    const tn = Number(travellers);
+    if (!travellers.trim() || !Number.isFinite(tn) || tn < 1 || tn > 50) e.travellers = "1–50 travellers";
+    return e;
+  }
+
+  function buildWaMessage() {
+    return [
+      `New inquiry — ${tripName}`,
+      `Package: ${pkgLabel} (₹${price.toLocaleString("en-IN")}/person)`,
+      `Departure: ${formatFull(departure)}`,
+      `Travellers: ${travellers}`,
+      ``,
+      `Name: ${name.trim()}`,
+      `Email: ${email.trim()}`,
+      `WhatsApp: ${whatsapp.trim()}`,
+      message.trim() ? `\nMessage: ${message.trim()}` : "",
+    ].join("\n");
+  }
+
+  function handleSubmit(ev: React.FormEvent) {
+    ev.preventDefault();
+    const e = validate();
+    setErrors(e);
+    if (Object.keys(e).length > 0) return;
+    const text = encodeURIComponent(buildWaMessage());
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${text}`, "_blank", "noopener");
+    setSent(true);
+  }
+
+  if (sent) {
+    return (
+      <div className="text-center py-6">
+        <div className="w-14 h-14 rounded-full bg-tertiary-fixed/40 text-tertiary flex items-center justify-center mx-auto mb-4">
+          <span className="material-symbols-outlined text-3xl">check_circle</span>
+        </div>
+        <h3 className="font-display font-bold text-lg mb-1">Inquiry sent!</h3>
+        <p className="text-sm text-on-surface-variant mb-5">
+          We've opened WhatsApp with your trip details pre-filled. If it didn't open, tap below.
+        </p>
+        <a
+          href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(buildWaMessage())}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 bg-[#25D366] text-white font-bold py-3 px-6 rounded-full hover:opacity-90 transition"
+        >
+          <span className="material-symbols-outlined text-base">chat</span> Open WhatsApp
+        </a>
+        <button
+          type="button"
+          onClick={() => {
+            setSent(false);
+            setName(""); setEmail(""); setWhatsapp(""); setTravellers("2"); setMessage(""); setErrors({});
+          }}
+          className="block w-full mt-4 text-xs font-semibold text-on-surface-variant hover:text-primary transition"
+        >
+          Send another inquiry
+        </button>
+      </div>
+    );
+  }
+
   return (
-    <form
-      onSubmit={(e) => {
-        e.preventDefault();
-        setSent(true);
-      }}
-      className="space-y-3"
-    >
-      <Field label="Full name" placeholder="Your name" />
-      <Field label="Email" type="email" placeholder="you@example.com" />
-      <Field label="WhatsApp" placeholder="+91 ..." />
+    <form onSubmit={handleSubmit} className="space-y-3" noValidate>
+      <Field label="Full name" placeholder="Your name" value={name} onChange={(e) => setName(e.target.value)} error={errors.name} required />
+      <Field label="Email" type="email" placeholder="you@example.com" value={email} onChange={(e) => setEmail(e.target.value)} error={errors.email} required />
+      <Field label="WhatsApp" placeholder="+91 ..." value={whatsapp} onChange={(e) => setWhatsapp(e.target.value)} error={errors.whatsapp} required />
       <div className="grid grid-cols-2 gap-3">
         <Field label="Travel date" type="date" value={departure} readOnly />
-        <Field label="Travellers" type="number" placeholder="2" />
+        <Field label="Travellers" type="number" min={1} max={50} placeholder="2" value={travellers} onChange={(e) => setTravellers(e.target.value)} error={errors.travellers} required />
       </div>
       <div>
         <label className="block text-xs font-semibold text-on-surface-variant mb-1.5">Message (optional)</label>
         <textarea
           rows={3}
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
           placeholder={`Hi, interested in ${tripName}...`}
           className="w-full rounded-xl border border-outline-variant bg-surface px-3.5 py-2.5 text-sm focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20"
         />
@@ -310,10 +393,12 @@ function BookingForm({ tripName, departure }: { tripName: string; departure: str
         type="submit"
         className="w-full bg-primary text-primary-foreground font-bold py-3.5 rounded-full hover:bg-primary-container transition-all active:scale-95"
       >
-        {sent ? "Request sent ✓" : "Request itinerary"}
+        Request itinerary
       </button>
       <a
-        href="https://wa.me/0000000000"
+        href={`https://wa.me/${WHATSAPP_NUMBER}`}
+        target="_blank"
+        rel="noopener noreferrer"
         className="w-full border border-outline-variant text-on-surface font-bold py-3 rounded-full flex items-center justify-center gap-2 hover:border-primary hover:text-primary transition"
       >
         <span className="material-symbols-outlined text-base">chat</span> Chat on WhatsApp
