@@ -407,14 +407,21 @@ function BookingForm({
   );
 }
 
-function Field({ label, ...props }: { label: string } & React.InputHTMLAttributes<HTMLInputElement>) {
+function Field({
+  label,
+  error,
+  ...props
+}: { label: string; error?: string } & React.InputHTMLAttributes<HTMLInputElement>) {
   return (
     <div>
       <label className="block text-xs font-semibold text-on-surface-variant mb-1.5">{label}</label>
       <input
         {...props}
-        className="w-full rounded-xl border border-outline-variant bg-surface px-3.5 py-2.5 text-sm focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20"
+        className={`w-full rounded-xl border bg-surface px-3.5 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 ${
+          error ? "border-secondary focus:border-secondary" : "border-outline-variant focus:border-primary"
+        }`}
       />
+      {error && <p className="text-xs text-secondary mt-1">{error}</p>}
     </div>
   );
 }
