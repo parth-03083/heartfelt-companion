@@ -12,4 +12,8 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // Add standard Vite configuration here
+  vite: {
+    base: '/heartfelt-companion/', // ⚠️ Replace this with your exact GitHub repository name
+  }
 });
