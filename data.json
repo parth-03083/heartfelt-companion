@@ -191,5 +191,814 @@
       "2026-11-15",
       "2026-12-20"
     ]
-  }
+  },
+  {
+  "id": "bali-exploration",
+  "name": "Bali Explorations",
+  "category": "international",
+  "country": "Indonesia",
+  "days": 7,
+  "price": null,
+  "groupSize": "",
+  "tag": "",
+  "featured": false,
+  "image": "",
+  "gallery": [],
+  "overview": "",
+  "perks": [],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Ahmedabad to Bali | Arrival & Hotel Check-in",
+      "desc": "Departure from Ahmedabad to Bali via Ho Chi Minh City / Hanoi with VietJet Air. Arrival at Ngurah Rai International Airport in the afternoon. Complete visa, immigration, and customs formalities. Meet your driver at the airport and transfer to your hotel or villa to check-in and relax. Overnight stay in Bali. Note: Flight timings depend on availability at the time of booking. Departure from Ahmedabad will be early morning."
+    },
+    {
+      "day": 2,
+      "title": "Water Sports, Padang Padang Beach & Uluwatu Sunset",
+      "desc": "Pick-up from hotel around 09:00 – 10:00 AM. Transfer to Tanjung Benoa Beach for exciting water sports activities including a Banana Boat Ride, Couple Parasailing, and Jet Ski Ride. Visit Padang Padang Beach, known for its crystal-clear waters and scenic limestone surroundings. Later proceed to Uluwatu Temple, a cliff-top temple famous for its breathtaking sunset views over the Indian Ocean. Return to the hotel after the tour. Overnight stay in Bali. Note: To enjoy the sunset properly, arrival at Uluwatu should be around 04:00 PM."
+    },
+    {
+      "day": 3,
+      "title": "Handara Gate, Ulun Danu Temple & Tanah Lot Sunset Tour",
+      "desc": "Pick-up from the hotel lobby between 07:00 – 08:00 AM. Visit Handara Gate, one of Bali’s most photographed landmarks featuring traditional Balinese split-gate architecture. Continue to Ulun Danu Beratan Temple on the shores of Lake Beratan, often referred to as the floating temple (optional boating available). Later visit Tanah Lot Temple, famous for its spectacular sunset views over the ocean. Return to the hotel. Overnight stay in Bali."
+    },
+    {
+      "day": 4,
+      "title": "Free for Leisure",
+      "desc": "Day free for leisure. You can enjoy the hotel/Villa amenities or opt for optional tours in Bali after discussing with our team or driver."
+    },
+    {
+      "day": 5,
+      "title": "Kintamani Volcano, Rice Terrace & Jungle Swing",
+      "desc": "Pick-up from the hotel between 08:00 – 09:00 AM. Visit the Kintamani viewpoint to admire views of Mount Batur and Lake Batur. Stop at a coffee plantation to taste local Balinese coffee and learn about spice cultivation. Explore Tegalalang Rice Terrace and visit Tegenungan Waterfall. Experience the famous Bali Jungle Swing. Includes local lunch and Balinese coffee/tea. Note: Children under 5 years receive lunch only; ages 5–9 must have parental supervision."
+    },
+    {
+      "day": 6,
+      "title": "Free for Leisure",
+      "desc": "Day free for leisure. You can enjoy the hotel/Villa amenities or opt for optional tours in Bali after discussing with our team or driver."
+    },
+    {
+      "day": 7,
+      "title": "Departure from Bali",
+      "desc": "Check-out from the hotel by 12:00 PM (subject to hotel policy). Depending on your flight schedule, transfer to Ngurah Rai International Airport for your return flight to Ahmedabad."
+    }
+  ],
+  "inclusions": [],
+  "exclusions": [],
+  "guidelines": [],
+  "faqs": [],
+  "departures": []
+  },
+  {
+  "id": "honeymoon-bali-with-flights",
+  "name": "Honeymoon Bali With Flights",
+  "category": "international",
+  "country": "Indonesia",
+  "days": 7,
+  "price": null,
+  "groupSize": "",
+  "tag": "",
+  "featured": false,
+  "image": "",
+  "gallery": [],
+  "overview": "",
+  "perks": [],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Ahmedabad to Bali | Arrival & Hotel Check-in",
+      "desc": "Departure from Ahmedabad to Bali via Ho Chi Minh City / Hanoi with VietJet Air (flight details will be shared separately). Arrival at Ngurah Rai International Airport in the afternoon. Complete visa, immigration, and customs formalities. Meet your driver at the airport and transfer to your hotel or villa. Check-in and relax after your journey. Overnight stay in Bali. Note: Flight timings depend on availability at the time of booking. Departure from Ahmedabad will be early morning."
+    },
+    {
+      "day": 2,
+      "title": "Handara Gate, Ulun Danu Temple & Tanah Lot Sunset Tour",
+      "desc": "Pick-up from the hotel lobby between 07:00 – 08:00 AM (exact time will depend on hotel location). Visit Handara Gate, one of Bali’s most photographed landmarks featuring traditional Balinese split-gate architecture surrounded by lush mountains. Continue to Ulun Danu Beratan Temple, a beautiful temple located on the shores of Lake Beratan, often referred to as the floating temple. Optional boating activity is available here on direct payment. Later visit Tanah Lot Temple, a famous sea temple known for its spectacular sunset views over the ocean. After sightseeing, return to the hotel. Overnight stay in Bali."
+    },
+    {
+      "day": 3,
+      "title": "Nusa Penida West Island Tour",
+      "desc": "Pick-up from hotel between 06:00 – 07:00 AM and transfer to the harbour. Board a shared fast boat to Nusa Penida Island. Full-day sightseeing around the island including: Kelingking Beach viewpoint, Angel’s Billabong natural rock lagoon, and Broken Beach scenic coastal arch. Continue to Bubu Beach where you can spend time at the beach and enjoy swimming. Optional snorkelling activity near the harbour (subject to time availability). Evening return by fast boat to mainland Bali and transfer back to the hotel. Note: Drivers in Nusa Penida may have limited English communication."
+    },
+    {
+      "day": 4,
+      "title": "Water Sports, Padang Padang Beach & Uluwatu Sunset",
+      "desc": "Pick-up from hotel around 09:00 – 10:00 AM. Transfer to Tanjung Benoa Beach for exciting water sports activities. Enjoy pre-booked activities: Banana Boat Ride, Couple Parasailing, and Jet Ski Ride. Additional activities can be booked directly at the location. Visit Padang Padang Beach, known for its crystal-clear waters and scenic limestone surroundings. Later proceed to Uluwatu Temple, a cliff-top temple famous for its breathtaking sunset views over the Indian Ocean. Return to the hotel after the tour. Overnight stay in Bali. Note: To enjoy the sunset properly, arrival at Uluwatu should be around 04:00 PM."
+    },
+    {
+      "day": 5,
+      "title": "Kintamani Volcano, Rice Terrace & Jungle Swing",
+      "desc": "Pick-up from the hotel between 08:00 – 09:00 AM. Visit the Kintamani viewpoint to admire views of Mount Batur and Lake Batur. Stop at a coffee plantation to taste local Balinese coffee and learn about spice cultivation. Explore Tegalalang Rice Terrace, famous for its beautiful layered rice fields. Visit Tegenungan Waterfall surrounded by lush greenery. Experience the famous Bali Jungle Swing with multiple swing options and scenic photo spots. Includes local lunch and Balinese coffee/tea. Note: Children under 5 years will receive lunch only. Children aged 5–9 years must participate with parental supervision."
+    },
+    {
+      "day": 6,
+      "title": "Floating Breakfast & Leisure Day",
+      "desc": "Start the morning with a floating breakfast at your hotel/villa. The rest of the day is free for relaxation. Enjoy hotel facilities or explore Bali on your own. Optional tours can be arranged upon request."
+    },
+    {
+      "day": 7,
+      "title": "Departure from Bali",
+      "desc": "Check-out from the hotel by 12:00 PM (subject to hotel policy). Depending on your flight schedule, transfer to Ngurah Rai International Airport for your return flight to Ahmedabad."
+    }
+  ],
+  "inclusions": [
+    "Flight tickets from Ahmedabad / Delhi / Mumbai",
+    "Accommodation in 3★ / 4★ Hotels or Resorts",
+    "Daily breakfast at the hotel",
+    "Welcome flower garland on arrival",
+    "Airport pickup and drop transfers",
+    "Private AC vehicle for sightseeing",
+    "Sightseeing and activities as per itinerary",
+    "English speaking driver / guide",
+    "Toll, parking charges and permits",
+    "24×7 travel assistance during the trip"
+  ],
+  "exclusions": [
+    "GST & TCS as applicable",
+    "Visa fee and tourism tax (payable on arrival)",
+    "Additional tours or arrangements",
+    "Optional / paid activities",
+    "Peak season surcharge if applicable",
+    "Extra cost due to unforeseen situations",
+    "Anything not mentioned in inclusions"
+  ],
+  "guidelines": [],
+  "faqs": [],
+  "departures": []
+  },
+  {
+  "id": "bali-with-gili-island",
+  "name": "Bali with Gili Island",
+  "category": "international",
+  "country": "Indonesia",
+  "days": 8,
+  "price": null,
+  "groupSize": "",
+  "tag": "",
+  "featured": false,
+  "image": "",
+  "gallery": [],
+  "overview": "",
+  "perks": [],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Ahmedabad to Bali | Arrival & Hotel Check-in",
+      "desc": "Departure from Ahmedabad to Bali via Ho Chi Minh City / Hanoi with VietJet Air (flight details will be shared separately). Arrival at Ngurah Rai International Airport in the afternoon. Complete visa, immigration, and customs formalities. Meet your driver at the airport and transfer to your hotel or villa. Check-in and relax after your journey. Overnight stay in Bali. Note: Flight timings depend on availability at the time of booking. Departure from Ahmedabad will be early morning."
+    },
+    {
+      "day": 2,
+      "title": "Handara Gate, Ulun Danu Temple & Tanah Lot Sunset Tour",
+      "desc": "Pick-up from the hotel lobby between 07:00 – 08:00 AM (exact time will depend on hotel location). Visit Handara Gate, one of Bali’s most photographed landmarks featuring traditional Balinese split-gate architecture surrounded by lush mountains. Continue to Ulun Danu Beratan Temple, a beautiful temple located on the shores of Lake Beratan, often referred to as the floating temple. Optional boating activity is available here on direct payment. Later visit Tanah Lot Temple, a famous sea temple known for its spectacular sunset views over the ocean. After sightseeing, return to the hotel. Overnight stay in Bali."
+    },
+    {
+      "day": 3,
+      "title": "Water Sports, Padang Padang Beach & Uluwatu Sunset",
+      "desc": "Pick-up from hotel around 09:00 – 10:00 AM. Transfer to Tanjung Benoa Beach for exciting water sports activities. Enjoy pre-booked activities: Banana Boat Ride, Couple Parasailing, and Jet Ski Ride. Additional activities can be booked directly at the location. Visit Padang Padang Beach, known for its crystal-clear waters and scenic limestone surroundings. Later proceed to Uluwatu Temple, a cliff-top temple famous for its breathtaking sunset views over the Indian Ocean. Return to the hotel after the tour. Overnight stay in Bali. Note: To enjoy the sunset properly, arrival at Uluwatu should be around 04:00 PM."
+    },
+    {
+      "day": 4,
+      "title": "Transfer from Bali to Gili Trawangan by Fast Boat",
+      "desc": "Early morning pick-up from the hotel between 05:30 – 06:00 AM (depending on hotel location). Transfer to Padang Bai Harbour, approximately 90–120 minutes drive from your hotel. Reporting time at the harbour is 08:00 AM for fast boat check-in. Board the fast boat departing around 09:00 AM towards Gili Trawangan. The sea journey takes around 2 hours to reach Gili Trawangan Harbour. Upon arrival, make your own way to the hotel and check in. Overnight stay in Gili Trawangan. Notes: Hotel transfers between harbour and hotel in Gili are not included. Harbour tax at Padang Bai: IDR 10,000 per person (payable directly). Harbour tax at Gili Trawangan: IDR 20,000 per person (payable directly). Boat schedule may change depending on weather or operational conditions. Boat ticket/voucher will be shared on WhatsApp one day before departure."
+    },
+    {
+      "day": 5,
+      "title": "Leisure Day in Gili Trawangan",
+      "desc": "Breakfast at the hotel. Enjoy a relaxing day on the beautiful island of Gili Trawangan. Explore the island by bicycle or traditional horse cart, as motor vehicles are not allowed here. Spend time at the beach or try activities like snorkelling or scuba diving (optional, at own cost). In the evening, enjoy the island’s sunset views and lively nightlife. Overnight stay in Gili Trawangan."
+    },
+    {
+      "day": 6,
+      "title": "Gili Trawangan to Bali | Transfer & Hotel Check-in",
+      "desc": "Check out from the hotel and proceed to Gili Trawangan Harbour. Reporting time at the harbour is 10:00 AM for the 11:00 AM fast boat departure. Board the boat back to Padang Bai Harbour, with a journey time of around 2 hours. After reaching Bali, continue your transfer to Kuta and check in at your hotel. Rest of the day at leisure. Overnight stay in Kuta, Bali. Notes: Return boat ticket is provided during the Bali to Gili transfer, so keep it safely. Boat schedules may change depending on conditions. Harbour tax at Gili Trawangan: IDR 20,000 per person (payable directly). Transfer from Gili hotel to harbour is not included."
+    },
+    {
+      "day": 7,
+      "title": "Kintamani Volcano, Rice Terrace & Jungle Swing",
+      "desc": "Pick-up from the hotel between 08:00 – 09:00 AM. Visit the Kintamani viewpoint to admire views of Mount Batur and Lake Batur. Stop at a coffee plantation to taste local Balinese coffee and learn about spice cultivation. Explore Tegalalang Rice Terrace, famous for its beautiful layered rice fields. Visit Tegenungan Waterfall surrounded by lush greenery. Experience the famous Bali Jungle Swing with multiple swing options and scenic photo spots. Includes local lunch and Balinese coffee/tea. Note: Children under 5 years will receive lunch only. Children aged 5–9 years must participate with parental supervision."
+    },
+    {
+      "day": 8,
+      "title": "Departure from Bali",
+      "desc": "Check-out from the hotel by 12:00 PM (subject to hotel policy). Depending on your flight schedule, transfer to Ngurah Rai International Airport for your return flight to Ahmedabad."
+    }
+  ],
+  "inclusions": [
+    "Flight tickets from Ahmedabad / Delhi / Mumbai",
+    "Accommodation in 3★ / 4★ Hotels or Resorts",
+    "Daily breakfast at the hotel",
+    "Welcome flower garland on arrival",
+    "Airport pickup and drop transfers",
+    "Private AC vehicle for sightseeing",
+    "Sightseeing and activities as per itinerary",
+    "English speaking driver / guide",
+    "Toll, parking charges and permits",
+    "24×7 travel assistance during the trip"
+  ],
+  "exclusions": [
+    "GST & TCS as applicable",
+    "Visa fee and tourism tax (payable on arrival)",
+    "Additional tours or arrangements",
+    "Optional / paid activities",
+    "Peak season surcharge if applicable",
+    "Extra cost due to unforeseen situations",
+    "Anything not mentioned in inclusions"
+  ],
+  "guidelines": [],
+  "faqs": [],
+  "departures": []
+  },
+  {
+  "id": "bali-exploration-and-relax-leisure",
+  "name": "Bali Exploration and Relax Leisure",
+  "category": "international",
+  "country": "Indonesia",
+  "days": 8,
+  "price": null,
+  "groupSize": "",
+  "tag": "",
+  "featured": false,
+  "image": "",
+  "gallery": [],
+  "overview": "",
+  "perks": [],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Ahmedabad to Bali | Arrival & Hotel Check-in",
+      "desc": "Departure from Ahmedabad to Bali via Ho Chi Minh City / Hanoi with VietJet Air (flight details will be shared separately). Arrival at Ngurah Rai International Airport in the afternoon. Complete visa, immigration, and customs formalities. Meet your driver at the airport and transfer to your hotel or villa. Check-in and relax after your journey. Overnight stay in Bali. Note: Flight timings depend on availability at the time of booking. Departure from Ahmedabad will be early morning."
+    },
+    {
+      "day": 2,
+      "title": "Benoa Beach Water Sports",
+      "desc": "Pick up from the hotel between 09:00 – 10:00 AM (depending on hotel location). Transfer to Tanjung Benoa Beach for exciting water sports activities. Enjoy pre-booked rides including 1 round of Banana Boat and Jet Ski. Additional water sport activities are available at the location on direct payment. After the activities, return transfer to the hotel. Rest of the day at leisure."
+    },
+    {
+      "day": 3,
+      "title": "Handara Gate, Ulun Danu Temple & Tanah Lot Sunset Tour",
+      "desc": "Pick-up from the hotel lobby between 07:00 – 08:00 AM (exact time will depend on hotel location). Visit Handara Gate, one of Bali’s most photographed landmarks featuring traditional Balinese split-gate architecture surrounded by lush mountains. Continue to Ulun Danu Beratan Temple, a beautiful temple located on the shores of Lake Beratan, often referred to as the floating temple. Optional boating activity is available here on direct payment. Later visit Tanah Lot Temple, a famous sea temple known for its spectacular sunset views over the ocean. After sightseeing, return to the hotel. Overnight stay in Bali."
+    },
+    {
+      "day": 4,
+      "title": "Leisure Day",
+      "desc": "Day free for leisure. You can enjoy the hotel/ Villa amenities, also you can opt for optional tours in Bali, after discussion with our team, or driver."
+    },
+    {
+      "day": 5,
+      "title": "Padang Padang Beach & Uluwatu Sunset Tour",
+      "desc": "Pick up from the hotel between 12:00 – 01:30 PM depending on your hotel location. Visit Padang Padang Beach, known for its clear blue water, white sand, and unique limestone cave entrance. Continue to Uluwatu Temple, a famous cliff-top temple offering breathtaking ocean views and beautiful sunset scenery. After sightseeing, transfer back to the hotel for overnight stay. Note: To enjoy the sunset view, arrival at Uluwatu should be around 16:00 hrs. Please confirm the pickup timing with the driver one day in advance. Carry an extra set of clothes if you wish to swim at the beach."
+    },
+    {
+      "day": 6,
+      "title": "Kintamani Volcano, Rice Terrace & Jungle Swing",
+      "desc": "Pick-up from the hotel between 08:00 – 09:00 AM. Visit the Kintamani viewpoint to admire views of Mount Batur and Lake Batur. Stop at a coffee plantation to taste local Balinese coffee and learn about spice cultivation. Explore Tegalalang Rice Terrace, famous for its beautiful layered rice fields. Visit Tegenungan Waterfall surrounded by lush greenery. Experience the famous Bali Jungle Swing with multiple swing options and scenic photo spots. Includes local lunch and Balinese coffee/tea. Note: Children under 5 years will receive lunch only. Children aged 5–9 years must participate with parental supervision."
+    },
+    {
+      "day": 7,
+      "title": "Leisure Day",
+      "desc": "Day free for leisure. You can enjoy the hotel/ Villa amenities, also you can opt for optional tours in Bali, after discussion with our team, or driver."
+    },
+    {
+      "day": 8,
+      "title": "Departure from Bali",
+      "desc": "Check-out from the hotel by 12:00 PM (subject to hotel policy). Depending on your flight schedule, transfer to Ngurah Rai International Airport for your return flight to Ahmedabad."
+    }
+  ],
+  "inclusions": [
+    "Flight tickets from Ahmedabad / Delhi / Mumbai",
+    "Accommodation in 3★ / 4★ Hotels or Resorts",
+    "Daily breakfast at the hotel",
+    "Welcome flower garland on arrival",
+    "Airport pickup and drop transfers",
+    "Private AC vehicle for sightseeing",
+    "Sightseeing and activities as per itinerary",
+    "English speaking driver / guide",
+    "Toll, parking charges and permits",
+    "24×7 travel assistance during the trip"
+  ],
+  "exclusions": [
+    "GST & TCS as applicable",
+    "Visa fee and tourism tax (payable on arrival)",
+    "Additional tours or arrangements",
+    "Optional / paid activities",
+    "Peak season surcharge if applicable",
+    "Extra cost due to unforeseen situations",
+    "Anything not mentioned in inclusions"
+  ],
+  "guidelines": [],
+  "faqs": [],
+  "departures": []
+},
+{
+  "id": "leh-ladakh-bike-trip",
+  "name": "Leh-Ladakh-Bike Trip",
+  "category": "domestic",
+  "country": "India",
+  "days": 6,
+  "price": 19500,
+  "groupSize": "",
+  "tag": "",
+  "featured": false,
+  "image": "",
+  "gallery": [],
+  "overview": "",
+  "perks": [],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Fly to Leh & Market Visit",
+      "desc": "Arrive at Leh Airport in the morning and transfer to the hotel. Check-in and relax to allow your body to acclimatize to the high altitude. Later in the day, explore nearby attractions at a comfortable pace. Visit the historic Leh Palace and stroll through the vibrant Leh local market. In the evening, enjoy panoramic sunset views from Shanti Stupa. Overnight stay in Leh. Dinner included."
+    },
+    {
+      "day": 2,
+      "title": "Sightseeing in Sham Valley (35 Km-1Hr One Way)",
+      "desc": "After breakfast, proceed for a day excursion to the scenic Sham Valley region near Leh. Visit the patriotic museum Hall of Fame maintained by the Indian Army. Continue to Spituk Monastery for a glimpse of Buddhist culture and monastery life. Stop at the sacred Gurudwara Pathar Sahib, an important Sikh pilgrimage site. Experience the optical illusion at Magnetic Hill. Visit the confluence where the Indus and Zanskar rivers meet at Indus–Zanskar Confluence. Return to Leh in the evening. Overnight stay in Leh. Breakfast & Dinner included."
+    },
+    {
+      "day": 3,
+      "title": "Leh To Nubra Valley Via Khardung La Pass (125 Kms – 5 Hrs)",
+      "desc": "Start the journey towards Nubra Valley after breakfast. Cross the famous mountain pass Khardung La, one of the highest motorable roads in the world. Upon arrival in Nubra, explore the iconic Diskit Monastery, the oldest monastery in the region. See the impressive 32-meter statue of Maitreya Buddha overlooking the valley. Later, visit the sand dunes of Hunder Sand Dunes and enjoy an optional ride on the famous double-humped Bactrian camels. Overnight stay in Nubra Valley. Breakfast & Dinner included."
+    },
+    {
+      "day": 4,
+      "title": "Nubra To Pangong Via Shyok (160 Kms – 5 Hrs)",
+      "desc": "After breakfast, depart for the mesmerizing Pangong Lake via the scenic Shyok route. Drive alongside dramatic landscapes and remote Himalayan villages. Arrive at Pangong Lake, a high-altitude saltwater lake stretching across the India-China border. Witness the lake’s remarkable color changes reflecting shades of blue, green, and turquoise. Enjoy a peaceful evening by the lakeside. Overnight stay at Pangong (camp or cottage). Breakfast & Dinner included."
+    },
+    {
+      "day": 5,
+      "title": "Pangong To Leh (130 Kms – 5 Hrs)",
+      "desc": "After breakfast, begin the return drive to Leh. Cross the high mountain pass Chang La Pass. En route visit the impressive Thiksey Monastery known for its grand architecture. Stop at Druk Padma Karpo School, popularly recognized as Rancho’s School from the movie 3 Idiots. Continue to Shey Palace and nearby monastery. Reach Leh by evening. Overnight stay in Leh. Breakfast & Dinner included."
+    },
+    {
+      "day": 6,
+      "title": "Return Fly towards Hometown",
+      "desc": "After breakfast, check out from the hotel. Transfer to Leh Airport for your onward flight back home with wonderful memories of Ladakh."
+    }
+  ],
+  "inclusions": [
+    "Accommodation in standard hotels DBL Sharing / camps on triple sharing",
+    "Airport Transfers from Leh",
+    "Buffet 6 Breakfasts During Stay",
+    "Buffet 6 Dinners During Stay",
+    "Bike Royal Enfield Himalayan From 2nd Day",
+    "Riding Jacket",
+    "Fuel for bike as per itinerary",
+    "Oxygen Cylinders and basic first aid kit",
+    "Experienced and Professional Backup Team with Backup car (For luggage) From 3rd Day",
+    "Experienced and Professional Tour Marshal From 2nd Day",
+    "Experienced and Professional Tour Mechanic From 3rd Day",
+    "Used Helmets",
+    "Driver cum guide",
+    "Toll, Parking Charges & Permits",
+    "All sightseeing as per itinerary (Strictly Point to point basis) by private NAC vehicle (Xylo, Scorpio Or Innova)",
+    "24x7 Support throughout the Journey",
+    "Inner-Line & Wildlife Entry Fees with Permit"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Anything not Specified in Inclusions",
+    "Any Paid Activities",
+    "Any cost arising due to natural calamities like flight delayed or cancelled, landslides, roadblocks... etc to be borne by the client directly on the spot",
+    "Any entrance fee to the monastery and monuments",
+    "Supplement cost for overseas passport holders"
+  ],
+  "guidelines": [],
+  "faqs": [],
+  "departures": [
+    "2027-04-19",
+    "2027-04-26",
+    "2027-05-03",
+    "2027-05-10",
+    "2027-05-17",
+    "2027-05-24",
+    "2027-05-31",
+    "2027-06-07",
+    "2027-06-14",
+    "2027-06-21",
+    "2027-06-28",
+    "2027-07-05",
+    "2027-07-12",
+    "2027-07-19",
+    "2027-07-26",
+    "2026-08-09",
+    "2026-08-16",
+    "2026-08-23",
+    "2026-08-30",
+    "2026-09-06",
+    "2026-09-13",
+    "2026-09-20",
+    "2026-09-27",
+    "2026-10-04"
+  ]
+},
+{
+  "id": "8d-7n-with-umling-la-ladakh-2026",
+  "name": "8D-7N With Umling la Ladakh 2026",
+  "category": "domestic",
+  "country": "India",
+  "days": 8,
+  "price": 27500,
+  "groupSize": "",
+  "tag": "",
+  "featured": false,
+  "image": "",
+  "gallery": [],
+  "overview": "",
+  "perks": [],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Fly to Leh & Market Visit",
+      "desc": "Arrive at Leh Airport in the morning and transfer to your hotel. Complete the check-in formalities and take rest to adapt to the high altitude of Ladakh. Spend the afternoon at leisure with light exploration around Leh town. Visit the historic Leh Palace and stroll through the local Leh market. In the evening, head to Shanti Stupa to enjoy panoramic views of Leh city and the surrounding mountains. Overnight stay in Leh. Dinner included."
+    },
+    {
+      "day": 2,
+      "title": "Sightseeing in Sham Valley (45 Km-1Hr One Way)",
+      "desc": "After breakfast, proceed for a half-day excursion to the scenic Sham Valley region. Stop at the sacred Gurudwara Pathar Sahib, a revered Sikh shrine visited by travelers and pilgrims. Continue to Magnetic Hill, famous for its gravity-defying optical illusion where vehicles appear to roll uphill. Visit the beautiful Indus–Zanskar Confluence where the two mighty rivers merge. Return to Leh in the evening and relax at your hotel. Overnight stay in Leh. Breakfast and dinner included. Sightseeing will be arranged by taxi or tempo traveller."
+    },
+    {
+      "day": 3,
+      "title": "Leh To Nubra Valley Via Khardung La Pass (125 Kms – 5 Hrs)",
+      "desc": "After breakfast, begin the drive toward Nubra Valley, crossing the famous high-altitude pass Khardung La. Enjoy breathtaking views of the snow-covered Himalayan ranges along the route. Upon arrival in Nubra Valley, visit Diskit Monastery, the oldest monastery in the region. See the magnificent 32-meter statue of Maitreya Buddha overlooking the valley. Later, explore the sand dunes of Hunder Sand Dunes and enjoy an optional ride on the unique double-humped Bactrian camels. Overnight stay in Nubra Valley. Breakfast and dinner included."
+    },
+    {
+      "day": 4,
+      "title": "Nubra To Pangong Via Shyok (160 Kms – 5 Hrs)",
+      "desc": "After breakfast, begin the scenic journey to Pangong Lake through the adventurous Shyok River route. Travel through rugged terrain and dramatic mountain landscapes often used by the Indian Army. Reach Pangong Lake by evening and settle into your campsite or lakeside accommodation. Pangong Tso is a high-altitude saltwater lake located along the Indo-China border and is famous for its ever-changing shades of blue. Spend the evening relaxing beside the lake and enjoying the serene environment. Overnight stay near Pangong Lake. Breakfast and dinner included. Riding distance: approx. 160 km. Note: If the route to Pangong is closed due to weather or road conditions, an alternate travel plan will be followed."
+    },
+    {
+      "day": 5,
+      "title": "Ride towards Hanle – The Stargazers’ Paradise",
+      "desc": "Today’s ride takes you from Pangong Lake to the remote village of Hanle. En route pass through Chushul and visit the historic Rezang La War Memorial, built in memory of the brave soldiers who fought during the 1962 Indo-China War. Continue riding through the vast Changthang plateau with spectacular views of barren mountains and open valleys. Reach Hanle village by evening. Hanle is home to the renowned Indian Astronomical Observatory and is also recognized as India’s first Dark Sky Reserve. At night, if the sky is clear, enjoy a magical stargazing experience with the Milky Way visible overhead. Overnight stay in Hanle. Breakfast and dinner included. Riding distance: approx. 160 km."
+    },
+    {
+      "day": 6,
+      "title": "Day Trip to Umling La Pass 19,024 ft",
+      "desc": "After breakfast, prepare for an unforgettable ride to Umling La Pass, one of the highest motorable roads in the world. The journey climbs dramatically through rugged mountain terrain to an altitude of around 19,024 feet. Capture memorable photographs and celebrate reaching this extraordinary milestone. Spend some time exploring the surrounding landscapes before riding back to Hanle village. Overnight stay in Hanle. Breakfast and dinner included."
+    },
+    {
+      "day": 7,
+      "title": "Hanle To Leh (260 Kms – 6 Hrs)",
+      "desc": "After breakfast, begin the return journey to Leh. Drive along the scenic route following the Indus River valley via Mahe Bridge. En route visit the famous Druk Padma Karpo School, widely known as Rancho’s School from the film 3 Idiots. Continue sightseeing with stops at Thiksey Monastery and Shey Palace. Arrive in Leh by evening and check into your hotel. Overnight stay in Leh."
+    },
+    {
+      "day": 8,
+      "title": "Return Fly towards Hometown",
+      "desc": "After breakfast, check out from the hotel. Transfer to Leh Airport for your return flight with unforgettable memories of Ladakh’s high-altitude landscapes and adventure."
+    }
+  ],
+  "inclusions": [
+    "Accommodation in standard hotels DBL Sharing / camps on triple sharing",
+    "Airport Transfers from Leh",
+    "Buffet 6 Breakfasts During Stay",
+    "Buffet 6 Dinners During Stay",
+    "Bike Royal Enfield Himalayan From 2nd Day",
+    "Riding Jacket",
+    "Fuel for bike as per itinerary",
+    "Oxygen Cylinders and basic first aid kit",
+    "Experienced and Professional Backup Team with Backup car (For luggage) From 3rd Day",
+    "Experienced and Professional Tour Marshal From 2nd Day",
+    "Experienced and Professional Tour Mechanic From 3rd Day",
+    "Used Helmets",
+    "Driver cum guide",
+    "Toll, Parking Charges & Permits",
+    "All sightseeing as per itinerary (Strictly Point to point basis) by private NAC vehicle (Xylo, Scorpio Or Innova)",
+    "24x7 Support throughout the Journey",
+    "Inner-Line & Wildlife Entry Fees with Permit"
+  ],
+  "exclusions": [
+    "5% GST",
+    "Anything not Specified in Inclusions",
+    "Any Paid Activities",
+    "Any cost arising due to natural calamities like flight delayed or cancelled, landslides, roadblocks... etc to be borne by the client directly on the spot",
+    "Any entrance fee to the monastery and monuments",
+    "Supplement cost for overseas passport holders"
+  ],
+  "guidelines": [],
+  "faqs": [],
+  "departures": [
+    "2026-04-19",
+    "2026-05-03",
+    "2026-05-17",
+    "2026-05-31",
+    "2026-06-14",
+    "2026-06-28",
+    "2026-07-12",
+    "2026-07-26",
+    "2026-08-09",
+    "2026-08-23",
+    "2026-09-06",
+    "2026-09-20",
+    "2026-10-04"
+  ]
+},
+
+{
+  "id": "russia-aurora-and-arctic-explorer",
+  "name": "6N-7D Russia Aurora & Arctic Explorer",
+  "category": "international",
+  "country": "Russia",
+  "days": 7,
+  "price": 1350,
+  "groupSize": "Min 4 Pax",
+  "tag": "",
+  "featured": false,
+  "image": "",
+  "gallery": [],
+  "overview": "",
+  "perks": [],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Moscow",
+      "desc": "Arrive in Moscow at the international airport. Private transfer from the airport to your hotel. Check-in and freshen up. Free time to rest and explore at your own pace. Overnight stay in Moscow. Meals: No meals"
+    },
+    {
+      "day": 2,
+      "title": "Moscow City Tour — Red Square & Kremlin",
+      "desc": "Breakfast at the hotel. Meet your English speaking guide for a full day Moscow City Tour (Vehicle & Guide for 6 Hours): Explore the iconic Red Square, Alexander Garden, Zaryadye Park, St. Basil's Cathedral, Lenin Mausoleum, GUM State Department Store, and the Moscow Metro. Lunch at your own expense. Excursion to the Kremlin Territory. Overnight stay in Moscow. Meals: Breakfast | Lunch at own expense"
+    },
+    {
+      "day": 3,
+      "title": "Moscow to Murmansk | City Tour & Northern Lights Hunt",
+      "desc": "Breakfast at the hotel. Check out and private transfer to Moscow SVO / DME Airport for your domestic flight to Murmansk (MMK) (flight cost not included). Arrive in Murmansk, the world's largest city above the Arctic Circle. Murmansk City Tour including the Icebreaker Lenin Tour (subject to availability). Check-in at your hotel. Evening Aurora Hunting trip. Overnight stay in Murmansk. Meals: Breakfast"
+    },
+    {
+      "day": 4,
+      "title": "Teriberka Village Tour",
+      "desc": "Breakfast at the hotel. Full day excursion to Teriberka Village: visit the Cemetery of Abandoned Ships, Real Sperm Whale Skeleton, Dragon Eggs Beach, Old Teriberka Giant Swing, and Poseidon Throne. Return to Murmansk. Overnight stay in Murmansk. Meals: Breakfast | Lunch at own expense"
+    },
+    {
+      "day": 5,
+      "title": "Sami Village Tour | Flight to St. Petersburg",
+      "desc": "Breakfast at the hotel. Check out. Full day immersive Sami Village Tour: visit a traditional village, feed reindeer, enjoy an authentic Vegetarian Local Lunch, cultural program inside a Chum, pet Siberian Huskies, and interact with other farm animals. Transfer to Murmansk Airport (MMK) for your evening domestic flight to St. Petersburg (LED) (flight cost not included). Arrive in St. Petersburg, private transfer to hotel, check-in and relax. Overnight stay in St. Petersburg. Meals: Breakfast | Vegetarian Local Lunch at Sami Village"
+    },
+    {
+      "day": 6,
+      "title": "St. Petersburg City Tour | Hermitage Museum",
+      "desc": "Breakfast at the hotel. Meet your English speaking guide for a full day St. Petersburg City Tour (Vehicle & Guide for 6 Hours): Nevsky Avenue, Admiralty Building, Palace Square, St. Petersburg State University, Spit of Vasilievsky Island, Exchange Building and Rostral Columns, Stroganov Palace, Church of the Savior on Spilled Blood, St. Isaac's Cathedral, and the Bronze Horseman. Lunch at your own expense. Full guided tour of the State Hermitage Museum and Winter Palace. Evening at leisure. Overnight stay in St. Petersburg. Meals: Breakfast | Lunch at own expense"
+    },
+    {
+      "day": 7,
+      "title": "St. Petersburg — Departure",
+      "desc": "Buffet Breakfast at the hotel. Check out from hotel. Private transfer to St. Petersburg Pulkovo International Airport (LED) and board your flight for your onward destination. End of tour with extraordinary memories of Russia. Meals: Breakfast"
+    }
+  ],
+  "inclusions": [
+    "2 Nights accommodation in Moscow at Holiday Inn Suschevisky or Similar — 4 Star (Standard Room, Double/Twin sharing)",
+    "2 Nights accommodation in Murmansk at Cosmos Hotel Murmansk or Similar — 4 Star (Standard Room, Double/Twin sharing)",
+    "2 Nights accommodation in St. Petersburg at Cosmos Park Inn Pribaltiskaya or Similar — 4 Star (Standard Room, Double/Twin sharing)",
+    "6 Buffet Breakfasts at hotel",
+    "1 Vegetarian Local Lunch at Sami Village (Day 5)",
+    "All tours and transfers on private basis",
+    "English Speaking Guide during all tours",
+    "Moscow City Tour including Red Square, Kremlin Territory & Moscow Metro",
+    "Murmansk City Tour",
+    "Icebreaker Lenin Tour (subject to ticket availability)",
+    "One Northern Lights Aurora Hunting trip (subject to weather conditions)",
+    "Teriberka Village excursion",
+    "Sami Village Tour with cultural program",
+    "Hermitage Museum Tour",
+    "St. Petersburg City Tour"
+  ],
+  "exclusions": [
+    "Russia E-Visa fees: USD 70 per person",
+    "Domestic flight tickets Moscow – Murmansk – St. Petersburg",
+    "International air tickets",
+    "All meals unless explicitly mentioned",
+    "Travel tips, minibar, laundry bills",
+    "Personal expenses",
+    "GST & TCS as applicable",
+    "Any government taxes or bank charges",
+    "Any insurance",
+    "City Tax paid directly at hotel"
+  ],
+  "guidelines": [
+    "Passport copy and PAN card copy mandatory at time of confirmation.",
+    "City taxes to be paid directly by guests at hotel check-in/check-out.",
+    "Northern Lights viewing is entirely subject to weather and atmospheric conditions.",
+    "Icebreaker Lenin Tour is subject to ticket availability."
+  ],
+  "faqs": [],
+  "departures": []
+},
+{
+  "id": "russia-imperial-discovery",
+  "name": "6N-7D Russia Imperial Discovery",
+  "category": "international",
+  "country": "Russia",
+  "days": 7,
+  "price": 765,
+  "groupSize": "Min 6 Pax",
+  "tag": "",
+  "featured": false,
+  "image": "",
+  "gallery": [],
+  "overview": "",
+  "perks": [],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival in Moscow",
+      "desc": "Arrive in Moscow at the international airport. Private transfer from the airport to your hotel. Check-in and freshen up. Free time to rest and explore at your own pace. Overnight stay in Moscow. Meals: No meals"
+    },
+    {
+      "day": 2,
+      "title": "Moscow City Tour — Red Square & Kremlin",
+      "desc": "Breakfast at the hotel. Meet your English speaking guide for a full day Moscow City Tour (Vehicle & Guide for 6 Hours): Explore the iconic Red Square, Alexander Garden, Zaryadye Park, St. Basil's Cathedral, Lenin Mausoleum, GUM State Department Store, and the Moscow Metro. Lunch at your own expense. Excursion to the Kremlin Territory. Free time in the evening. Overnight stay in Moscow. Meals: Breakfast | Lunch at own expense"
+    },
+    {
+      "day": 3,
+      "title": "Moscow Panoramic City Tour & VDNKH Park",
+      "desc": "Breakfast at the hotel. Meet your English speaking guide for a full day Moscow Panoramic Tour (Vehicle & Guide for 6 Hours) covering Moscow State University, Stalin's Buildings, The White House, Victory Park viewpoint, Cathedral of Christ the Savior, and Bolshoi Theatre. Visit VDNKH Park and enjoy a thrilling Cable Car Ride. Lunch at your own expense. Free time in the evening. Overnight stay in Moscow. Meals: Breakfast | Lunch at own expense"
+    },
+    {
+      "day": 4,
+      "title": "Moscow to St. Petersburg via Sapsan Train",
+      "desc": "Breakfast at the hotel. Check out from hotel at 12:00. Private transfer to Leningradsky Railway Station. Board the high-speed Sapsan Train from Moscow to St. Petersburg. Arrive in St. Petersburg, transfer to your hotel, check-in and free time to explore. Overnight stay in St. Petersburg. Meals: Breakfast"
+    },
+    {
+      "day": 5,
+      "title": "St. Petersburg City Tour | Neva River Cruise",
+      "desc": "Breakfast at the hotel. Meet your English speaking guide for a full day St. Petersburg City Tour (Vehicle & Guide for 6 Hours): Nevsky Avenue, Admiralty Building, Palace Square, St. Petersburg State University, Spit of Vasilievsky Island, Exchange Building and Rostral Columns, Stroganov Palace, Church of the Savior on Spilled Blood, St. Isaac's Cathedral, and the Bronze Horseman. Lunch at your own expense. Evening Neva River Cruise / Submarine Tour passing illuminated landmarks. Evening at leisure. Overnight stay in St. Petersburg. Meals: Breakfast | Lunch at own expense"
+    },
+    {
+      "day": 6,
+      "title": "Hermitage Museum | Shopping at Nevsky Street",
+      "desc": "Breakfast at the hotel. Meet your English speaking guide (Vehicle & Guide for 6 Hours) for a full guided tour of the world-famous State Hermitage Museum and the Winter Palace. Lunch at your own expense. Evening Shopping Tour at Nevsky Street and the stunning Galleria Mall. Private transfer back to hotel. Overnight stay in St. Petersburg. Meals: Breakfast | Lunch at own expense"
+    },
+    {
+      "day": 7,
+      "title": "St. Petersburg — Departure",
+      "desc": "Breakfast at the hotel. Check out from hotel. Private transfer to St. Petersburg Pulkovo International Airport (LED) and board your flight back home with wonderful memories of Russia. Meals: Breakfast"
+    }
+  ],
+  "inclusions": [
+    "3 Nights accommodation in Moscow at Holiday Inn or Similar — 4 Star (Standard Room, Double/Twin sharing)",
+    "3 Nights accommodation in St. Petersburg at Cosmos Park Inn Pribaltiskaya or Similar — 4 Star (Standard Room, Double/Twin sharing)",
+    "6 Buffet Breakfasts at hotel",
+    "All tours and transfers on private basis — Minivan car",
+    "English Speaking Guide during all tours",
+    "Sapsan High-Speed Train ticket from Moscow to St. Petersburg",
+    "Excursion entrance fees included: Kremlin Territory, Moscow Metro, Cable Car at VDNKH, Hermitage Museum, Kazan Cathedral, Neva Canal Cruise / Submarine Tour"
+  ],
+  "exclusions": [
+    "Russia E-Visa fees: USD 70 per person",
+    "Lunch & Dinner (at own expense unless mentioned)",
+    "International / Domestic air tickets",
+    "Travel tips, minibar, laundry bills",
+    "Personal expenses",
+    "GST 5% extra if GST bill required",
+    "TCS as applicable",
+    "Any insurance",
+    "City Tax / Tourism fees paid directly at hotel"
+  ],
+  "guidelines": [
+    "Passport copy and PAN card copy mandatory at time of confirmation.",
+    "City taxes to be paid directly by guests at hotel check-in/check-out.",
+    "Hotels may ask for a refundable security deposit at check-in."
+  ],
+  "faqs": [],
+  "departures": []
+},
+{
+  "id": "5-days-private-namibia-tour",
+  "name": "5 DAYS PRIVATE NAMIBIA TOUR",
+  "category": "international",
+  "country": "Namibia",
+  "days": 5,
+  "price": null,
+  "groupSize": "",
+  "tag": "",
+  "featured": false,
+  "image": "",
+  "gallery": [],
+  "overview": "",
+  "perks": [],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival Windhoek – Sossusvlei",
+      "desc": "Upon arrival at Windhoek International Airport, meet & greet by our representative (Morning Arrival is recommended before 1300 HRS). Transfer to your accommodation in Sossusvlei, a stunning and remote location in the Namib Desert renowned for its dramatic landscapes and towering sand dunes reaching over 300 meters. Check in, freshen up, and enjoy dinner at the lodge. Overnight in Sossusvlei. Meals: Breakfast & Dinner"
+    },
+    {
+      "day": 2,
+      "title": "Sossusvlei Excursion",
+      "desc": "Breakfast at the lodge. Proceed for the Sossusvlei Excursion with an early start to enter the Namib-Naukluft Park at sunrise. Travel in an all-terrain custom-built vehicle with a specialized guide. Make regular stops along the ±60 kilometre drive through the dune corridor. Stop at Dune 45 to view the world's most photographed dune, and take a guided walk up to Dead Vlei or climb the upper ridge of Big Daddy Dune. After the tour, transfer back to your lodge for dinner. Overnight in Sossusvlei. Meals: Brunch & Dinner"
+    },
+    {
+      "day": 3,
+      "title": "Sossusvlei – Swakopmund",
+      "desc": "Breakfast at the lodge. Check-out and transfer to your hotel in Swakopmund, a scenic beach resort founded in 1892 showcasing German colonial architecture and serving as the adventure capital of Namibia. Check in and relax. Overnight at Swakopmund. Meals: Breakfast"
+    },
+    {
+      "day": 4,
+      "title": "Swakopmund Seal & Dolphin Cruise & Sandwich Harbour",
+      "desc": "Breakfast at the hotel. Proceed for a Seal & Dolphin Cruise in Swakopmund, followed by a Sandwich Harbour 4x4 Scenic Excursion along the beach to the Sandwich Harbour Lagoon, one of Southern Africa’s richest and most unique wetlands wedged between the sea and the Namib Dunes. Transfer back to your hotel. Overnight at Swakopmund. Meals: Breakfast"
+    },
+    {
+      "day": 5,
+      "title": "Swakopmund – Windhoek Departure",
+      "desc": "Breakfast at the camp/hotel. Check-out and transfer to Windhoek Airport for your return flight back home. Meals: Breakfast"
+    }
+  ],
+  "inclusions": [
+    "04 Nights’ accommodation as per the itinerary",
+    "Daily Breakfast",
+    "02 Dinners in Sossusvlei Lodge",
+    "Seal & Dolphin Cruise in Swakopmund",
+    "Sandwich Harbor Tour in Swakopmund",
+    "Visit to Sossusvlei & Deadvlei",
+    "All Transfers by an English Speaking Driver in Namibia",
+    "Personal customer service (24×7)"
+  ],
+  "exclusions": [
+    "International & Domestic Airfare",
+    "Visa Charges",
+    "Anything not mentioned in Tour Inclusions",
+    "Local tourist guide where not specified above",
+    "Any golfing related fees",
+    "One-way drop-off fees | additional equipment | fines & fine handling fee | lost key call-out fee | fuel",
+    "Mineral water on coaches and microbuses",
+    "Tips & gratuities for drivers & guides",
+    "Porterage Fee",
+    "Meals not mentioned in the Itinerary or Inclusions",
+    "Drinks",
+    "Items of a personal nature, such as telephone bills, room service, laundry, etc.",
+    "Waiting or additional transfer fees if clients miss shuttle transfers or transfers booked for a specific time"
+  ],
+  "guidelines": [],
+  "faqs": [],
+  "departures": []
+},
+{
+  "id": "5-days-self-drive-namibia-tour",
+  "name": "5 DAYS SELF-DRIVE NAMIBIA TOUR",
+  "category": "international",
+  "country": "Namibia",
+  "days": 5,
+  "price": null,
+  "groupSize": "",
+  "tag": "",
+  "featured": false,
+  "image": "",
+  "gallery": [],
+  "overview": "",
+  "perks": [],
+  "itinerary": [
+    {
+      "day": 1,
+      "title": "Arrival Windhoek – Sossusvlei",
+      "desc": "Upon arrival at Windhoek International Airport, pick up your vehicle from the airport (Morning Arrival is recommended before 1300 HRS). Drive to your accommodation in Sossusvlei, a stunning, remote location in the Namib Desert renowned for its dramatic landscapes and towering sand dunes reaching over 300 meters. Check in, freshen up, and enjoy dinner at the lodge. Overnight in Sossusvlei. Meals: Breakfast & Dinner"
+    },
+    {
+      "day": 2,
+      "title": "Sossusvlei Excursion",
+      "desc": "Breakfast at the lodge. Proceed for the Sossusvlei Excursion with an early start to enter the Namib-Naukluft Park at sunrise. Travel in an all-terrain custom-built vehicle with a specialized guide. Make regular stops along the ±60 kilometre drive through the dune corridor. Stop at Dune 45 to view the world's most photographed dune, and take a gradual guided walk up to Dead Vlei or climb the upper ridge of Big Daddy Dune. After the tour, transfer back to your lodge for dinner. Overnight in Sossusvlei. Meals: Brunch & Dinner"
+    },
+    {
+      "day": 3,
+      "title": "Sossusvlei – Swakopmund",
+      "desc": "Breakfast at the lodge. Check-out and drive to your hotel in Swakopmund, a scenic beach resort founded in 1892 showcasing German colonial architecture and serving as the adventure capital of Namibia. Check in and relax. Overnight at Swakopmund. Meals: Breakfast"
+    },
+    {
+      "day": 4,
+      "title": "Swakopmund Seal & Dolphin Cruise & Sandwich Harbour",
+      "desc": "Breakfast at the hotel. Proceed for a Seal & Dolphin Cruise in Swakopmund, followed by a Sandwich Harbour 4x4 Scenic Excursion along the beach to the Sandwich Harbour Lagoon, one of Southern Africa’s richest and unique wetlands wedged between the sea and the Namib Dunes. Transfer back to your hotel. Overnight at Swakopmund. Meals: Breakfast"
+    },
+    {
+      "day": 5,
+      "title": "Windhoek Departure",
+      "desc": "Breakfast at the camp/hotel. Check-out and drive to Windhoek Airport to drop off your vehicle. After formalities, board your international flight back home. Meals: Breakfast"
+    }
+  ],
+  "inclusions": [
+    "04 Nights’ accommodation as per the itinerary",
+    "Daily Breakfast",
+    "02 Dinners in Sossusvlei Lodge",
+    "Seal & Dolphin Cruise in Swakopmund",
+    "Sandwich Harbor Tour in Swakopmund",
+    "Visit to Sossusvlei & Deadvlei",
+    "Self-Drive Toyota Fortuner (Automatic) or Similar from Windhoek Airport to Windhoek Airport (Day 01 to Day 05) – Unlimited Kilometres | Premium Cover | Contract Fee | Tyre & Glass Damage | 1–2 Spare Tyres | Unlimited Additional Drivers | Handheld Radio",
+    "Personal customer service (24×7)"
+  ],
+  "exclusions": [
+    "PCR Test if required",
+    "International & Domestic Airfare",
+    "Visa Charges",
+    "Anything not mentioned in Tour Inclusions",
+    "Local tourist guide where not specified above",
+    "Any golfing related fees",
+    "One-way drop-off fees | additional equipment | fines & fine handling fee | lost key call-out fee | fuel",
+    "Mineral water on coaches and microbuses",
+    "Tips & gratuities for drivers & guides",
+    "Porterage Fee",
+    "Meals not mentioned in the Itinerary or Inclusions",
+    "Drinks",
+    "Items of a personal nature, such as telephone bills, room service, laundry, etc.",
+    "Waiting or additional transfer fees if clients miss shuttle transfers or transfers booked for a specific time"
+  ],
+  "guidelines": [],
+  "faqs": [],
+  "departures": []
+}
+
 ]
